@@ -1,0 +1,84 @@
+@import'./variable';
+.ilkyazi>h1{
+    color: #4B53BC;
+    font-size: 50px;
+}
+.btn.btn-primary{
+    background-color: #4B53BC;
+}
+.left{
+    width: 40%;
+}
+.right{
+    width: 60%;
+}
+.img{
+    height: 220px;
+    width: 200px;
+    background-size: cover;
+}
+.image1{
+    background-image: url(image1.jpg);
+}
+.image2{
+    background-image: url(image2.jpg);
+}
+.image3{
+    background-image:url(image3.jpg);
+}
+.image4{
+    background-image:url(image4.jpg);
+}
+.img>button{
+    background-color: #4B53BC;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.rightside{
+    width: 60%;
+}
+.leftside{
+    width: 40%;
+}
+.main3{
+    height: 100%;
+    background-image:linear-gradient(45deg, #4B54BD, #9879d4);
+}
+.box>button{
+    background-color:#4B54BD;
+}
+.main4{
+    height: 100%;
+    width: 100%;
+}
+.twins{
+    width: 40%;
+    height: 800px;
+    background-image:linear-gradient(45deg , #9879d4, #7668CA)
+}
+@media (max-width:950px) {
+    .right{
+        width: 100%;
+    }
+    .left{
+        width: 100%;
+        padding: 40px 0;
+    }
+    .leftside{
+        width: 100%;
+        margin: 20px 0;
+    }
+    .rightside{
+        width: 100%;
+        justify-content: center;
+    }
+    .img{
+        margin: 10px 0;
+    }
+    .twins{
+        width: 100%;
+        margin: 20px 0
+    }
+}
+@import './footer';

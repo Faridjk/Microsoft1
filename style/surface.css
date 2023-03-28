@@ -1,0 +1,240 @@
+.img {
+  background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/MSFT-A-woman-sits-smiling-at-her-Surface-Laptop-5-in-sandstone-desktop?scl=1);
+  background-size: cover;
+  width: 100%;
+  height: 800px;
+}
+
+.ilkyazi {
+  font-size: 90px;
+}
+
+.first > img {
+  background-size: cover;
+  height: 60px;
+  width: 60px;
+}
+
+.main3 {
+  height: 500px;
+  width: 100%;
+  display: grid;
+  grid-template-areas: "birinci birinci ikinci ucuncu" "birinci birinci dorduncu besinci";
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+  row-gap: 10px;
+  padding: 20px;
+}
+
+.birinci {
+  background-image: url(birinci.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  grid-area: birinci;
+  border-radius: 20px;
+}
+
+.sekil {
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+
+.ikinci {
+  background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/MSFT-View-Surface-Pro-9-Sapphire-Surface-Type-Cover-attached?fmt=png-alpha&wid=430&hei=350&fit=crop);
+  grid-area: ikinci;
+}
+
+.ucuncu {
+  background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/MSFT-Surface-Pro-8-shown-three-quarter-kickstand-extended-type-cover?fmt=png-alpha&wid=325&hei=240&fit=crop);
+  grid-area: ucuncu;
+}
+
+.dorduncu {
+  background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/MSFT-Surface-Pro-7-plues-three-quarter-view-kickstand-extended-type-cover?fmt=png-alpha&wid=325&hei=240&fit=crop);
+  grid-area: dorduncu;
+}
+
+.besinci {
+  background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/MSFT-Surface-Go-3--three-quarter-kickstand-extended-type-cover?fmt=png-alpha&wid=325&hei=240&fit=crop);
+  grid-area: besinci;
+}
+
+.main4 {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-areas: " ikinci ucuncu birinci birinci" "dorduncu besinci birinci birinci ";
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+  row-gap: 10px;
+  padding: 20px;
+}
+
+.birinci1 {
+  background-image: url(birinci.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  grid-area: birinci;
+  border-radius: 20px;
+}
+
+.sekil1 {
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+
+.ikinci1 {
+  background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/MSFT-View-Surface-Pro-9-Sapphire-Surface-Type-Cover-attached?fmt=png-alpha&wid=430&hei=350&fit=crop);
+  grid-area: ikinci;
+}
+
+.ucuncu1 {
+  background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/MSFT-Surface-Pro-8-shown-three-quarter-kickstand-extended-type-cover?fmt=png-alpha&wid=325&hei=240&fit=crop);
+  grid-area: ucuncu;
+}
+
+.dorduncu1 {
+  background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/MSFT-Surface-Pro-7-plues-three-quarter-view-kickstand-extended-type-cover?fmt=png-alpha&wid=325&hei=240&fit=crop);
+  grid-area: dorduncu;
+}
+
+.besinci1 {
+  background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/MSFT-Surface-Go-3--three-quarter-kickstand-extended-type-cover?fmt=png-alpha&wid=325&hei=240&fit=crop);
+  grid-area: besinci;
+}
+
+.footer {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #F2F2F2;
+  color: #505055;
+}
+
+.topfooter {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+
+.name {
+  font-weight: bold;
+  margin: 0 40px;
+}
+
+.bottomfooter {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+
+.takim > p {
+  font-size: 12px;
+  margin: 20px;
+}
+
+.takim > h3 {
+  padding-left: 20px;
+}
+
+.footer2 {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  color: #505055;
+  background-color: #F2F2F2;
+}
+
+.gruppa1 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 22%;
+  padding-left: 60px;
+}
+
+.global {
+  height: 20px;
+  width: 20px;
+  background-image: url(global.png);
+  background-size: cover;
+  margin: 0 10px;
+}
+
+.gruppa1 > p {
+  font-size: 12px;
+}
+
+.gruppa2 > p {
+  font-size: 12px;
+  margin: 0 10px;
+}
+
+.gruppa2 {
+  display: flex;
+  width: 78%;
+  justify-content: end;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 900px) {
+  .global {
+    height: 15px;
+    width: 15px;
+  }
+}
+@media (max-width: 900px) {
+  .img {
+    background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/MSFT-A-woman-sits-smiling-at-her-Surface-Laptop-5-in-sandstone-mobile?scl=1);
+  }
+  .ilkyazi {
+    font-size: 40px;
+    align-items: start;
+  }
+  .main4 {
+    grid-template-areas: "birnci birinci birinci birinci" "ikinci ikinci ikinci ikinci" "ucuncu ucuncu ucuncu ucuncu" "dorduncu dorduncu dorduncu dorduncu" "besinci besinci besinci besinci";
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 20px;
+  }
+  .birinci1 {
+    height: 350px;
+  }
+  .ikinci1 {
+    height: 350px;
+  }
+  .ucuncu1 {
+    height: 350px;
+  }
+  .dorduncu1 {
+    height: 350px;
+  }
+  .besinci1 {
+    height: 350px;
+  }
+  .main3 {
+    display: none;
+  }
+  .gridh1 {
+    display: none;
+  }
+  .laptoph1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}/*# sourceMappingURL=surface.css.map */

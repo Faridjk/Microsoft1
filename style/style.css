@@ -1,0 +1,400 @@
+.main2 {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  padding-top: 60px;
+}
+
+.servicler {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.linkler {
+  height: 100%;
+  width: 200px;
+  padding: 30px 0;
+}
+
+.img2 {
+  background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/surface-go2-link-list-120x120?wid=40&hei=40);
+  background-size: cover;
+}
+
+.img3 {
+  background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/gldn-Quick-Link-Icon-80x80-Microsoft-365?wid=40&hei=40);
+  background-size: cover;
+}
+
+.img4 {
+  background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/xbox-blk-logo-link-list-120x120?wid=40&hei=40);
+}
+
+.img5 {
+  background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/gldn-Quick-Link-Icon-80x80-Microsoft-365?wid=40&hei=40);
+}
+
+.img6 {
+  background-image: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/keyboard-mouse-link-list-120x120?wid=40&hei=40");
+}
+
+.img7 {
+  background-image: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/gldn-ICON-LL-briefcase-120x120?wid=40&hei=40");
+}
+
+.img11 {
+  background-size: cover;
+  height: 40px;
+  width: 40px;
+  margin: 0 70px;
+}
+
+.img1 > a {
+  color: #177AC5;
+  margin: 0 20px;
+  font-weight: bold;
+}
+
+.main3 {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  width: 100%;
+  margin-top: 50px;
+  justify-content: space-evenly;
+}
+
+.photo4 {
+  background-image: url(microsoft365.jpg);
+}
+
+.photo1 {
+  background-image: url(laptop.jpg);
+}
+
+.photo2 {
+  background-image: url(notebook.jpg);
+}
+
+.photo3 {
+  background-image: url(xbox.jpg);
+}
+
+.photo {
+  background-size: cover;
+  height: 200px;
+  width: 300px;
+}
+
+.div > h2 {
+  width: 262px;
+}
+
+.div > p {
+  width: 262px;
+  margin-bottom: 30px;
+}
+
+.div > a {
+  text-decoration: none;
+  color: #177AC5;
+  font-weight: bold;
+}
+
+.main4 {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+}
+
+.foto {
+  background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Digital-Gaming-FY23BCC:VP1-539x440);
+  background-size: cover;
+  height: 533px;
+  width: 83%;
+}
+
+.foto > h2 {
+  width: 323px;
+  line-height: 1.6;
+  color: white;
+  margin: 160px 100px 0 100px;
+  letter-spacing: 2px;
+}
+
+.foto > p {
+  width: 323px;
+  line-height: 1.6;
+  color: white;
+  margin: 0 100px 0 100px;
+  letter-spacing: 2px;
+}
+
+.foto > a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 40px 0 0 100px;
+}
+
+.foto > button {
+  height: 40px;
+  width: 167px;
+  background-color: #0067b8;
+  color: white;
+  font-weight: bold;
+  border-color: #0067b8;
+  display: block;
+  margin: 30px 0 30px 100px;
+}
+
+.main5 {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.photo5 {
+  background-size: cover;
+  height: 200px;
+  width: 300px;
+}
+
+.photo6 {
+  background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Content-Card-Surface-Laptop-5-LIfestyle-M2?wid=297&hei=167&fit=crop);
+}
+
+.photo7 {
+  background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/gldn-CP-Microsoft-Teams-Commercial?wid=297&hei=167&fit=crop);
+}
+
+.photo8 {
+  background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Content-Card-VSB-Library-Sharepoint?wid=297&hei=167&fit=crop);
+}
+
+.photo9 {
+  background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/gldn-M365-CP-Microsoft365-Commercial?wid=297&hei=167&fit=crop);
+}
+
+.division > p {
+  width: 300px;
+  margin-bottom: 30px;
+}
+
+.division > h2 {
+  width: 300px;
+}
+
+.division > a {
+  text-decoration: none;
+  color: #177AC5;
+  font-weight: bold;
+}
+
+.main6 {
+  height: 100%;
+  width: 100%;
+}
+
+.sekil {
+  background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Black-History-Month-Inclusion-is-Innovation-FY23:VP4-1260x600);
+  background-size: cover;
+  width: 75%;
+  height: 500px;
+}
+
+.box {
+  background-color: white;
+  width: 45%;
+  height: auto;
+}
+
+.main7 {
+  height: 300px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.sira1 {
+  display: flex;
+  width: 50%;
+  margin-left: 90px;
+}
+
+.sira2 {
+  width: 50%;
+  display: flex;
+  justify-content: end;
+}
+
+.sira2 > a {
+  height: 41px;
+  background-color: gray;
+  width: 131px;
+  text-align: center;
+  padding-top: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.sekiller {
+  height: 32px;
+  width: 32px;
+  background-size: cover;
+  margin: 0 10px;
+}
+
+.sekiller1 {
+  background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Facebook%202x?scl=1);
+}
+
+.sekiller2 {
+  background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Twitter%202x?scl=1);
+}
+
+.sekiller3 {
+  background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Linkedin%202x?scl=1);
+}
+
+.top + a {
+  position: sticky;
+  bottom: 0;
+}
+
+.television {
+  width: 50%;
+}
+
+.wordstelevision {
+  width: 50%;
+}
+
+@media (max-width: 500px) {
+  .group1 > a {
+    display: none;
+  }
+  .b {
+    display: none;
+  }
+  .main1 {
+    padding-top: 30px;
+  }
+}
+@media (max-width: 900px) {
+  .sekil {
+    height: 400px;
+  }
+  .box {
+    width: 80%;
+  }
+  .delete {
+    display: none;
+  }
+  .main1 {
+    width: 100%;
+  }
+  .television {
+    width: 100%;
+  }
+  .wordstelevision {
+    width: 100%;
+  }
+}
+.footer {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #F2F2F2;
+  color: #505055;
+}
+
+.topfooter {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+
+.name {
+  font-weight: bold;
+  margin: 0 40px;
+}
+
+.bottomfooter {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+
+.takim > p {
+  font-size: 12px;
+  margin: 20px;
+}
+
+.takim > h3 {
+  padding-left: 20px;
+}
+
+.footer2 {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  color: #505055;
+  background-color: #F2F2F2;
+}
+
+.gruppa1 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 22%;
+  padding-left: 60px;
+}
+
+.global {
+  height: 20px;
+  width: 20px;
+  background-image: url(global.png);
+  background-size: cover;
+  margin: 0 10px;
+}
+
+.gruppa1 > p {
+  font-size: 12px;
+}
+
+.gruppa2 > p {
+  font-size: 12px;
+  margin: 0 10px;
+}
+
+.gruppa2 {
+  display: flex;
+  width: 78%;
+  justify-content: end;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 900px) {
+  .global {
+    height: 15px;
+    width: 15px;
+  }
+}/*# sourceMappingURL=style.css.map */

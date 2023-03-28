@@ -1,0 +1,187 @@
+.ilkyazi > h1 {
+  color: #4B53BC;
+  font-size: 50px;
+}
+
+.btn.btn-primary {
+  background-color: #4B53BC;
+}
+
+.left {
+  width: 40%;
+}
+
+.right {
+  width: 60%;
+}
+
+.img {
+  height: 220px;
+  width: 200px;
+  background-size: cover;
+}
+
+.image1 {
+  background-image: url(image1.jpg);
+}
+
+.image2 {
+  background-image: url(image2.jpg);
+}
+
+.image3 {
+  background-image: url(image3.jpg);
+}
+
+.image4 {
+  background-image: url(image4.jpg);
+}
+
+.img > button {
+  background-color: #4B53BC;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.rightside {
+  width: 60%;
+}
+
+.leftside {
+  width: 40%;
+}
+
+.main3 {
+  height: 100%;
+  background-image: linear-gradient(45deg, #4B54BD, #9879d4);
+}
+
+.box > button {
+  background-color: #4B54BD;
+}
+
+.main4 {
+  height: 100%;
+  width: 100%;
+}
+
+.twins {
+  width: 40%;
+  height: 800px;
+  background-image: linear-gradient(45deg, #9879d4, #7668CA);
+}
+
+@media (max-width: 950px) {
+  .right {
+    width: 100%;
+  }
+  .left {
+    width: 100%;
+    padding: 40px 0;
+  }
+  .leftside {
+    width: 100%;
+    margin: 20px 0;
+  }
+  .rightside {
+    width: 100%;
+    justify-content: center;
+  }
+  .img {
+    margin: 10px 0;
+  }
+  .twins {
+    width: 100%;
+    margin: 20px 0;
+  }
+}
+.footer {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #F2F2F2;
+  color: #505055;
+}
+
+.topfooter {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+
+.name {
+  font-weight: bold;
+  margin: 0 40px;
+}
+
+.bottomfooter {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+
+.takim > p {
+  font-size: 12px;
+  margin: 20px;
+}
+
+.takim > h3 {
+  padding-left: 20px;
+}
+
+.footer2 {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  color: #505055;
+  background-color: #F2F2F2;
+}
+
+.gruppa1 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 22%;
+  padding-left: 60px;
+}
+
+.global {
+  height: 20px;
+  width: 20px;
+  background-image: url(global.png);
+  background-size: cover;
+  margin: 0 10px;
+}
+
+.gruppa1 > p {
+  font-size: 12px;
+}
+
+.gruppa2 > p {
+  font-size: 12px;
+  margin: 0 10px;
+}
+
+.gruppa2 {
+  display: flex;
+  width: 78%;
+  justify-content: end;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 900px) {
+  .global {
+    height: 15px;
+    width: 15px;
+  }
+}/*# sourceMappingURL=teams.css.map */
