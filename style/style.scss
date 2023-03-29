@@ -215,18 +215,6 @@
 .wordstelevision{
     width: 50%;
 }
-@media(max-width:500px){
-    .group1>a{
-        display: none;
-    }
-    .b{
-        display: none;
-    }
-    
-    .main1{
-        padding-top: 70px;
-    }
-}
 @media(max-width:900px){
     .sekil{
         height: 400px;
@@ -237,21 +225,24 @@
     .delete{
         display: none;
     }
-    .main1{
-        width: 100%;
-        margin-top: 50px;
-    }
     .television{
         width: 100%;
     }
     .wordstelevision{
-        width: 100%
+        width: 100%;
+        padding-top:70px;
     }
     .division{
         padding: 0 20px;
        }
     .div{
       padding: 0 20px;
+    }
+    .group1>a{
+        display: none;
+    }
+    .b{
+        display: none;
     }
 }
 @import '_footer.scss';
