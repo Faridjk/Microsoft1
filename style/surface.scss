@@ -34,8 +34,7 @@
     border-radius:20px;
 }
 .sekil{
-    background-size:contain;
-    background-repeat: no-repeat;
+    background-size:cover;
     height: 100%;
     width: 100%;
 }
@@ -121,7 +120,6 @@
     }
     .birinci1{
         height: 350px;
-        display: none;
     }
     .ikinci1{
         height: 350px;
